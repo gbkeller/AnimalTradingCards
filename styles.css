@@ -1,0 +1,29 @@
+.main {border-style: solid;
+       border-color: grey;
+       border-width: 1px;
+       width:310px;
+       padding-left:10px;
+       padding-bottom:10px;
+       position: absolute;
+       /* below from https://www.w3.org/Style/Examples/007/center.en.html to
+       center in page*/
+       top: 50%;
+       left: 50%;
+       margin-right: -50%;
+       transform: translate(-50%, -50%);}
+
+.picture {width:300px;}
+
+.information {border-style: solid;
+              border-color: grey;
+              border-width: 1px;
+              width:278px;
+              padding:10px;
+              background-color: rgb(156,179,205);}
+
+.pi {font-style:italic;}
+
+ul {list-style-type:none;
+    padding:0;}
+
+span {font-weight:bold;}
